@@ -5,63 +5,115 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="icon" type="image/jpg" href="../img/favicon.png"/>
 </head>
 <body>
     <!-- Inicia el nav -->
-    <nav class="font-center">
-        <a href="../index.html"><img src="../img/logo.png" width="100" height="100" alt="Logo Lentes"></a>
-
-        <ul class="font-center" id="menu">
-            <li>
-                <a>Productos</a>
-            </li>
-            <li>
-                <a href="./Ofertas.html">Ofertas</a>
-            </li>
-            <li>
-                <a href="./DondeEncontrarnos.html">Donde encontrarnos</a>
-            </li>
-            <li>
-                <a href="./Nosotros.html">Nosotros</a>
-            </li>
-        </ul>
+    <nav class="navbar navbar-expand-lg bg-light navbar-dark bg-dark h-25">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html" id="navStyle">
+                <img class=" mx-auto mb-4" src="../img/logo.png" alt="" width="72" height="57">
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav" id="navStyle">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../pages/productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/ofertas.html">Ofertas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/dondeEncontrarnos.html">Donde encontrarnos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+              </li>
+            </ul>
+          </div>
+        </div>
     </nav>
+    <!-- Finaliza el Nav -->
 
-    <h1 class="font-center">Nuestros Productos</h1>    
-    <div>
-        <div class="contenedorProductos1">
-            <div class="styleProduc">
-                <img src="../img/lentes1.jpg" alt="lentes Infinit Exclamation">
-                <h2>
-                    Infinit Exclamation // $12000
-                </h2>
+    <header class="px-4 py-1 my-1 text-center">
+        <img class="d-block mx-auto mb-1" src="../img/logo.png" alt="" width="100" height="100">
+        <h2 class="display-5 fw-bold mb-4">Nuestros Productos</h2>
+    </header>
+    
+    <div class="album py-5">
+        <div class="container">    
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <!-- Prodcto 1 -->
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="../img/lentes7.webp" alt="lentes Infinit Monaco" class="img-thumbnail">
+                    <rect width="100%" height="100%" fill="#55595c"/>    
+                    <div class="card-body">
+                        <p class="card-text fs-1 text-center">Infinit Monaco</p>
+                        <p class="card-text fs-2 text-end">$12000</p>
+                    </div>
+                </div>
             </div>
-            <div class="styleProduc">
-                <img src="../img/lentes2.jpg" alt="lentes Infinit Xenote">
-                <h2>
-                    Infinit Cozumel // $15000
-                </h2>
+            <!-- Producto 2 -->
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="../img/lentes5.jpg" alt="lentes Infinit Xenote" class="img-thumbnail">
+                    <rect width="100%" height="100%" fill="#55595c"/>    
+                    <div class="card-body">
+                        <p class="card-text fs-1 text-center">Infinit Xenote</p>
+                        <p class="card-text fs-2 text-end">$22000</p>
+                    </div>
+                </div>
             </div>
-        </div>        
-        <div class="contenedorProductos2">
-            <div class="styleProduc">
-                <img src="../img/lentes5.jpg" alt="lentes Infinit Cozumel">
-                <h2>
-                    Infinit Xenote // $22000
-                </h2>
+            <!-- Producto 3 -->
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="../img/lentes2.jpg" alt="lentes Infinit Cozumel" class="img-thumbnail">
+                    <rect width="100%" height="100%" fill="#55595c"/>    
+                    <div class="card-body">
+                        <p class="card-text fs-1 text-center">Infinit Cozumel</p>
+                        <p class="card-text fs-2 text-end">$22000</p>
+                    </div>
+                </div>
             </div>
-            <div class="styleProduc">
-                <img src="../img/lentes4.jpg" alt="lentes Infinit Xenote">
-                <h2 class="font-center">
-                    Infinit Xenote // $14000
-                </h2>
+            <!-- Producto 4 -->
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="../img/lentes4.jpg" alt="lentes Infinit Star" class="img-thumbnail">
+                    <rect width="100%" height="100%" fill="#55595c"/>    
+                    <div class="card-body">
+                        <p class="card-text fs-1 text-center">Infinit Star</p>
+                        <p class="card-text fs-2 text-end">$17000</p>
+                    </div>
+                </div>
             </div>
-        </div>            
-    </div>
-    <footer>
-        <p class="positionProd">Eclipse Sunglasses</p>
-    </footer>    
+            <!-- Producto 5 -->
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="../img/lentes3.webp" alt="lentes Infinit Cannes" class="img-thumbnail">
+                    <rect width="100%" height="100%" fill="#55595c"/>    
+                    <div class="card-body">
+                        <p class="card-text fs-1 text-center">Infinit Cannes</p>
+                        <p class="card-text fs-2 text-end">$19200</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Producto 6 -->
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="../img/lentes6.webp" alt="lentes Infinit Olivier" class="img-thumbnail">
+                    <rect width="100%" height="100%" fill="#55595c"/>    
+                    <div class="card-body">
+                        <p class="card-text fs-1 text-center">Infinit Olivier</p>
+                        <p class="card-text fs-2 text-end">$12000</p>
+                    </div>
+                </div>
+            </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>   
 </body>
 </html>

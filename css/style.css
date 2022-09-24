@@ -5,32 +5,16 @@ html {
 }
 body{
     background-image: url(../img/fondo3.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;    
 }
-nav{
-    background-color: white;
-}
-nav ul{
-    list-style: none;
-}
-nav ul li a{
-    color: black;
-    text-decoration: none;
+#navStyle{
     font-family: 'Roboto', sans-serif;
     font-size: 2rem;
-    padding: 2em;
-}
+} 
 main section p{
     color: black;
     font-family: 'Roboto', sans-serif;
-    font-size: 3rem;
-    line-height: 2.2rem;
-}
-main section h1{
-    font-family: 'Roboto', sans-serif;
-    font-size: 5rem
-    
 }
 .font-center{
     text-align: center;
@@ -49,18 +33,33 @@ main section h1{
     position: relative;    
     text-align: center;
 }
+.portadaStyle{
+    position: relative;
+}
+.textoPortadaStyle{
+    position: absolute; 
+    top: 10%; 
+    left: -15%; 
+    width: 100%;
+}
 
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 5rem
+}
+
+/* main div p{
+    position: absolute;
+    top: 10%;
+    left: 1%;
+}
 main div{
     top: 150%;
     left: 8%;
     z-index: 1;
     position: absolute;
 }
-main div p{
-    position: absolute;
-    top: 10%;
-    left: 1%;
-}
+
 p{
     text-align: center;
     position: relative;
@@ -71,53 +70,7 @@ p{
     font-size: 1.7em;
     color: grey;    
 }
-h1{
-    font-family: 'Roboto', sans-serif;
-    font-size: 5rem
-}
-
-/* ---------- STYLE PARA PRODUCTOS -------*/
-
-.contenedorProductos1{   
-    position: absolute;
-    top: 95%;
-    left: 30%;
-    transform: translate(-50%, -50%);
-}
-
-.contenedorProductos2{     
-    position: absolute;
-    top: 95%;
-    left: 70%;
-    transform: translate(-50%, -50%);
-}
-
-div div img{
-    max-width: 100%;
-    max-height: 100%;
-}
-
-div div h2{
-    text-align: center;
-}
-
-.styleProduc{
-    position: relative;
-    top: 150%;
-    height: 300px;
-    width: 400px;    
-}
-
-.positionProd{
-    text-align: center;
-    position: relative;
-    top: 550px;
-    z-index: 2;
-    padding: 1em;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.7em;
-    color: grey;
-}
+*/
 
 /* ---------- STYLE PARA OFERTAS -------*/
 
