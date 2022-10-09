@@ -1,87 +1,102 @@
 /* exportamos la fuente */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
 html {
     font-size: 62.5%;
 }
-body{
+
+body {
     background-image: url(../img/fondo3.jpg);
     background-repeat: repeat;
-    background-size: cover;    
+    background-size: cover;
 }
-#navStyle{
+
+#navStyle {
     font-family: 'Roboto', sans-serif;
     font-size: 2rem;
-} 
-main section p{
+}
+
+main section p {
     color: black;
     font-family: 'Roboto', sans-serif;
 }
-.font-center{
+
+.font-center {
     text-align: center;
 }
 
-#menu li{
+#menu li {
     display: inline;
     padding-left: 25px;
-    padding-right: 25px;    
+    padding-right: 25px;
 }
-#menu{
+
+#menu {
     background-color: grey;
 }
 
-.contenedor{
-    position: relative;    
+.contenedor {
+    position: relative;
     text-align: center;
 }
-.portadaStyle{
+
+.portadaStyle {
     position: relative;
 }
-.textoPortadaStyle{
-    position: absolute; 
-    top: 10%; 
-    left: -15%; 
+
+.textoPortadaStyle {
+    position: absolute;
+    top: 10%;
+    left: -15%;
     width: 100%;
 }
 
-h1{
+h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 5rem
 }
+
 /* ---------- Animaciones -------*/
-body header{
+.animacion {
     animation-duration: 1s;
     animation-name: slidein;
 }
-body header:hover{
-    transform: scale(1.5,1);    
+
+.animacion:hover {
+    transform: scale(1.5, 1);
 }
+
 @keyframes slidein {
     from {
-      margin-left: 100%;
-      width: 300%
+        margin-left: 100%;
+        width: 300%
     }
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-  }
 
-body main section div div div:hover{    
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+main section div div div:hover {
     border: solid 2px;
+}
+
+.noColapsar {
+    overflow-x: hidden;
 }
 
 
 /* ---------- STYLE PARA OFERTAS -------*/
 
-.styleOfer{
+.styleOfer {
     float: left;
     height: 300px;
     width: 400px;
     margin: 1%;
 }
 
-.positionOferta{
+.positionOferta {
     text-align: center;
     position: relative;
     top: 200%;
@@ -89,69 +104,30 @@ body main section div div div:hover{
     padding: 1em;
     font-family: 'Roboto', sans-serif;
     font-size: 1.7em;
-    color: grey;    
+    color: grey;
 }
 
 /* ---------- STYLE PARA DONDE ENCONTRARNOS -------*/
 
-.styleDirec{
-    text-align: center;
-    color: black;
-    font-family: 'Roboto', sans-serif;
-    font-size: 3rem;
-}
-
-.styleDirec2{
-    text-align:left;
-    color: black;
-    font-family: 'Roboto', sans-serif;
-    font-size: 2rem;
-}
-
-.recuadro{
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 40%;
     position: relative;
-    left: 36%;
-    background-color: rgb(204, 204, 204);
-    padding: 10px;
-    margin: 0 0 25px;
-    height: 300px;
-    width: 350px;
+    height: 0;
+    
 }
 
-iframe{
-    position: relative;
-    left: 28%;
-}
-.positionDirec{
-    text-align: center;
-    position: relative;
-    top: 10px;
-    z-index: 2;
-    padding: 1em;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.7em;
-    color: grey; 
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    position: absolute;
 }
 
-/* ---------- STYLE PARA NOSOTROS -------*/
 
-.styleNosotros{
-    text-align: left;
-    color: black;
-    font-family: 'Roboto', sans-serif;
-    font-size: 3rem;    
-}
 
-.nosotros{
-    text-align: left;
-    position: relative;
-    top: 10px;
-    color: black;
-    font-family: 'Roboto', sans-serif;
-    font-size: 3rem;
-    background-color: antiquewhite;
-}
-.positionNosotros{
+.positionDirec {
     text-align: center;
     position: relative;
     top: 10px;

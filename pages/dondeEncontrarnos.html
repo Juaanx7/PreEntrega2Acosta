@@ -1,61 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"> 
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="icon" type="image/jpg" href="../img/favicon.png"/>
-</head>
-<body>
-    <!-- Inicia el nav -->
-    <nav class="navbar navbar-expand-lg bg-light navbar-dark bg-dark h-25">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="../index.html" id="navStyle">
-                <img class=" mx-auto mb-4" src="../img/logo.png" alt="" width="72" height="57">
-            </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav" id="navStyle">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="../pages/productos.html">Productos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/ofertas.html">Ofertas</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="../pages/dondeEncontrarnos.html">Donde encontrarnos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-    </nav>
-  <!-- Finaliza nav -->   
-    <header class="px-4 py-1 my-1 text-center">
-      <img class="d-block mx-auto mb-1" src="../img/logo.png" alt="" width="100" height="100">
-      <p class="display-5 fw-bold mb-4">Donde encontrarnos</p>
-    </header>
-  <!-- Contenido -->
-    <div class="recuadro">
-        <h1 class="styleDirec">Nuestra ubicacion:</h1>
-        <div class="styleDirec2">
-            <h2>San Lorenzo 27, Cordoba, Argentina</h2>
-            <h3>De lunes a Viernes</h3>
-            <h4>De 7am a 18pm</h4>
-        </div>
-    </div>
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1702.335319921705!2d-64.1874120994793!3d-31.42319933740579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a2858438af2b%3A0xc8209c7b9849787b!2sSan%20Lorenzo%2027%2C%20X5000%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1662144000359!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <footer>
-        <p class="positionDirec">Eclipse Sunglasses</p>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script> 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="icon" type="image/jpg" href="../img/favicon.png" />
+</head>
+
+<body>
+  <!-- Inicia el nav -->
+  <nav class="navbar navbar-expand-lg bg-light navbar-dark bg-dark h-25">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html" id="navStyle">
+        <img class=" mx-auto mb-4" src="../img/logo.png" alt="" width="72" height="57">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav" id="navStyle">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="../pages/productos.html">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/ofertas.html">Ofertas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="../pages/dondeEncontrarnos.html">Donde encontrarnos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Finaliza nav -->
+  <header class="noColapsar">
+    <div class="px-4 py-1 my-1 text-center animacion">
+      <img class="d-block mx-auto mb-1" src="../img/logo.png" alt="logo del body" width="100" height="100">
+      <h1 class="display-5 fw-bold mb-4">Eclipse Sunglasses</h1>
+    </div>
+  </header>
+  <!-- Contenido principal-->
+  <main class="card row mb-5 ms-4" style="width: 25%">
+    <div class="card-body">
+      <h5 class="card-header">Nuestra ubicacion:</h5>
+      <div class="card-text">
+        <h2>San Lorenzo 27, Cordoba, Argentina</h2>
+        <h3>De lunes a Viernes</h3>
+        <h4>De 7am a 18pm</h4>
+      </div>
+    </div>
+  </main>
+  <div class="map-responsive ms-4">
+    <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1702.335319921705!2d-64.1874120994793!3d-31.42319933740579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a2858438af2b%3A0xc8209c7b9849787b!2sSan%20Lorenzo%2027%2C%20X5000%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1662144000359!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  <!-- Termina contenido principal -->
+
+
+  <footer class="py-3 my-4 sticky-bottom">
+    <p class="text-center text-muted fs-2">Eclipse Sunglasses</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

@@ -1,72 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ofertas</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="icon" type="image/jpg" href="../img/favicon.png"/>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ofertas</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="icon" type="image/jpg" href="../img/favicon.png" />
 </head>
+
 <body>
-    <!-- Inicia el nav -->
-    <nav class="navbar navbar-expand-lg bg-light navbar-dark bg-dark h-25">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="../index.html" id="navStyle">
-                <img class=" mx-auto mb-4" src="../img/logo.png" alt="" width="72" height="57">
-            </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav" id="navStyle">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="../pages/productos.html">Productos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="../pages/ofertas.html">Ofertas</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/dondeEncontrarnos.html">Donde encontrarnos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
-              </li>
-            </ul>
+  <!-- Inicia el nav -->
+  <nav class="navbar navbar-expand-lg bg-light navbar-dark bg-dark h-25">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html" id="navStyle">
+        <img class=" mx-auto mb-4" src="../img/logo.png" alt="logo del body" width="72" height="57">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav" id="navStyle">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="../pages/productos.html">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="../pages/ofertas.html">Ofertas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/dondeEncontrarnos.html">Donde encontrarnos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Finaliza nav -->
+
+  <header class="noColapsar">
+    <div class="px-4 py-1 my-1 text-center animacion">
+      <img class="d-block mx-auto mb-1" src="../img/logo.png" alt="logo del body" width="100" height="100">
+      <h1 class="display-5 fw-bold mb-4">Eclipse Sunglasses</h1>
+    </div>
+  </header>
+  
+  <!-- Contenido principal -->
+  <main class="album py-5">
+    <section class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <!-- Prodcto 1 -->
+        <div class="col animationProduc">
+          <div class="card shadow-sm">
+            <img src="../img/oferta1.jpg" alt="oferta de Infinit Airplane" class="img-thumbnail">
+            <rect width="100%" height="100%" fill="#55595c" />
+            <div class="card-body">
+              <p class="card-text fs-1 text-center">Infinit Airplane</p>
+              <p class="card-text fs-2 text-end">$8000</p>
+            </div>
           </div>
         </div>
-    </nav>
-    <!-- Finaliza nav -->
-    
-    <header class="px-4 py-1 my-1 text-center">
-      <img class="d-block mx-auto mb-1" src="../img/logo.png" alt="" width="100" height="100">
-      <h1 class="display-5 fw-bold mb-4">Ofertas</h1>
-    </header>
-   <!-- Contenido -->
-    <div>
-        <div class="styleOfer">
-            <img src="../img/oferta1.jpg" alt="oferta de Infinit Airplane">
-            <h2>
-                Infinit Airplane // $8000
-            </h2>
+        <!-- Producto 2 -->
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="../img/oferta2.jpg" alt="oferta de Infinit Tulum" class="img-thumbnail">
+            <rect width="100%" height="100%" fill="#55595c" />
+            <div class="card-body">
+              <p class="card-text fs-1 text-center">Infinit Tulum</p>
+              <p class="card-text fs-2 text-end">$5000</p>
+            </div>
+          </div>
         </div>
-        <div class="styleOfer">
-            <img src="../img/oferta2.jpg" alt="oferta de Infinit Tulum">
-            <h2>
-                Infinit Tulum // $5000
-            </h2>
+        <!-- Producto 3 -->
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="../img/oferta3.jpg" alt="oferta de Infinit Rupert" class="img-thumbnail">
+            <rect width="100%" height="100%" fill="#55595c" />
+            <div class="card-body">
+              <p class="card-text fs-1 text-center">Infinit Rupert</p>
+              <p class="card-text fs-2 text-end">$9000</p>
+            </div>
+          </div>
         </div>
-        <div class="styleOfer">
-            <img src="../img/oferta3.jpg" alt="oferta de Infinit Rupert">
-            <h2>
-                Infinit Rupert // $9000
-            </h2>
-        </div>            
-    </div>
-    <footer>
-        <p class="positionOferta">Eclipse Sunglasses</p>
-    </footer> 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>    
+      </div>
+    </section>
+  </main>
+
+  <footer class="py-3 my-4 sticky-bottom">
+    <p class="text-center text-muted fs-2">Eclipse Sunglasses</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
